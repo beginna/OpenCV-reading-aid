@@ -1,0 +1,22 @@
+body {
+    width: 600px;
+    margin: 33px auto;
+}
+
+video {
+    width: 100%;
+}
+
+figure {
+    cursor: pointer;
+    overflow: hidden;
+    border: 5px solid white
+}
+
+figure video {
+    -webkit-transition: all;
+}
+
+div:hover video {
+    transform: scale(1.3);
+}
